@@ -116,6 +116,7 @@ nav li button{
     color: #757575;
 }
 
+
 .b1-btn1{
     font-weight: bold;
     font-size: 20px;
@@ -124,16 +125,21 @@ nav li button{
     border-radius: 5px;
     border: none;
     padding: 19px 17px;
+
+    margin-right: 30px;
 }
 
 .b1-btn2{
     font-weight: bold;
     font-size: 20px;
     color: #FD6E0A;
+    background-color: ;
     
     border-radius: 5px;
-    border: none;
+    border: 1px solid;
+    border-color: #FD6E0A;
     padding: 19px 17px;
+    width: 160px;
 }
 
 .b2-img{
@@ -250,11 +256,13 @@ hr{
     font-weight: bold;
     color: #FFFFFF;
     background-color: #FD6E0A;
-    padding: 19px 17px 18px 51px;
+    padding: 19px 17px 18px 8px;
     border-radius: 5px;
     border: none;
     width: 200px;
     height: 64px;
+    
+    white-space: nowrap;
     
 }
 
